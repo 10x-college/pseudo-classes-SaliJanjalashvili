@@ -1,0 +1,80 @@
+/* RESET STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  width: 1512px;
+}
+
+/* HEADER */
+header {
+  height: 96px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 89px;
+  height: 56px;
+  object-fit: contain;
+  margin: 21px 0 0 27px;
+}
+
+.search-input {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  font-weight: 400;
+  width: 203px;
+  height: 19px;
+  padding: 20px 129px 20px 25px;
+  border-radius: 10px;
+  background-color: #ECF3F5;
+  color: #89928E;
+  margin: 20px 0 0 109px;
+}
+
+.date {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 38px 0 0 473px;
+}
+
+.date p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.calendar-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.add-table-button {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 29px 0 20px;
+  padding: 19px 30px;
+  background-color: #B1CED4;
+  color: #2C3832;
+  border-radius: 10px;
+}
+
+.add-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
