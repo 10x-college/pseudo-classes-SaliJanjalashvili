@@ -14,7 +14,7 @@ body {
 /* HEADER */
 header {
   height: 96px;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ECEDED;
 }
 
 .logo {
@@ -77,4 +77,52 @@ header {
   height: 18px;
   vertical-align: middle;
   margin-right: 10px;
+}
+
+/* MENU */
+.menu {
+  padding: 42px 448px 117px 115px;
+}
+
+.menu-cards {
+  height: 622px;
+}
+
+.card {
+  width: 203px;
+  height: 214px;
+  border-radius: 15px;
+  border: 1px solid #f9f7f7;
+  background-color: #D8E6E9;
+}
+
+.card-image-1 {
+  display: block;
+  width: 205px;
+  object-fit: cover;
+  margin-left: -0.5px;
+}
+
+.card-title {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 8px 32px 12px 32px;
+}
+
+.card-description {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px 11px 0px 14px;
+}
+
+.card-description p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-icon {
+  width: 73px;
+  margin-left: 32px;
+  display: inline-block;
+  vertical-align: middle;
 }
