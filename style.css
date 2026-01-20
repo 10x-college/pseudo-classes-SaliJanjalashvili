@@ -86,6 +86,7 @@ header {
 
 .menu-cards {
   height: 622px;
+  font-size: 0;
 }
 
 .card {
@@ -94,6 +95,8 @@ header {
   border-radius: 15px;
   border: 1px solid #f9f7f7;
   background-color: #D8E6E9;
+  display: inline-block;
+  margin: 0px 29px 25px 0px;
 }
 
 .card-image-1 {
@@ -120,7 +123,21 @@ header {
   vertical-align: middle;
 }
 
-.card-icon {
+.card-icon-1 {
+  width: 23px;
+  margin-left: 82px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-icon-2 {
+  width: 55px;
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-icon-3 {
   width: 73px;
   margin-left: 32px;
   display: inline-block;
