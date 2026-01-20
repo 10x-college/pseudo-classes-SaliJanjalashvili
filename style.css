@@ -81,12 +81,16 @@ header {
 
 /* MENU */
 .menu {
-  padding: 42px 448px 117px 115px;
+  padding: 42px 448px 117px 140px;
 }
 
 .menu-cards {
   height: 622px;
   font-size: 0;
+}
+
+.menu-cards .card:nth-child(4n) {
+  margin-right: 0;
 }
 
 .card {
@@ -142,4 +146,34 @@ header {
   margin-left: 32px;
   display: inline-block;
   vertical-align: middle;
+}
+
+/* NAVIGATION */
+.navigation {
+  background-color: #EAF0F0;
+  padding: 22px 25px 26px 25px;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+  margin-top: -116px;
+  margin-left: 115px;
+}
+
+.navigation-button {
+  background-color: #D9D9D9;
+  color: #A9A9A9;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 19px 44px;
+}
+
+.navigation-button:not(:last-child) {
+  margin-right: 77px;
+}
+
+.navigation-button.active,
+.navigation-button:hover {
+  background-color: #4A5C2F;
+  color: #ECF3F5;
 }
